@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useAuth } from "../context/AuthContext";
 import { FaUser, FaEnvelope, FaSignInAlt, FaUserAlt } from "react-icons/fa";
-import { Link } from "react-router"; // changed to 'react-router-dom'
+import { Link } from "react-router"; // fixed import
 import { updateProfile } from "firebase/auth";
 import { toast } from "react-toastify";
 
@@ -36,20 +36,12 @@ const ProfilePage = () => {
   };
 
   return (
-    <div className="min-h-screen bg-base-200 mt-10 flex items-center justify-center p-4">
+    <div className="min-h-screen bg-base-200 mt-4 lg:mt-10 flex items-center justify-center p-4">
       {user ? (
-        <div className="flex flex-col-reverse md:flex-row items-center justify-center gap-8 w-full max-w-6xl">
-          {/* Left image section */}
-          <div className="w-full  md:w-1/2 flex justify-center">
-            <img 
-              src={user.photoURL}
-              alt="Profile Illustration"
-              className="w-full max-w-sm"
-            />
-          </div>
-
+        <div className="flex flex-col-reverse md:flex-row items-center justify-center w-full max-w-6xl">
+        
           {/* Right profile info section */}
-          <div className="card w-full md:w-1/2 bg-base-100 shadow-xl py-6 px-4 md:px-6">
+          <div className="card w-full md:w-1/2 bg-base-100 shadow-xl py-2 px-4 md:px-6">
             <div className="card-body">
               {/* Profile avatar and name */}
               <div className="flex flex-col items-center mb-6">
@@ -62,7 +54,7 @@ const ProfilePage = () => {
                         className="rounded-full h-full w-full object-cover"
                       />
                     ) : (
-                      <FaUserAlt className="text-white text-4xl rounded-full h-full w-full object-cover p-4" /> // Display profile icon if no photo URL
+                      <FaUserAlt className="text-white text-4xl rounded-full h-full w-full object-cover p-4" />
                     )}
                   </div>
                 </div>
@@ -99,7 +91,7 @@ const ProfilePage = () => {
 
               {/* Edit fields */}
               {editMenuOpen && (
-                <div className="mt-6">
+                <div className="mt-2">
                   <div className="divider">Update Profile</div>
 
                   <div className="mb-4">
