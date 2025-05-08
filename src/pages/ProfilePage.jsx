@@ -71,7 +71,7 @@ const ProfilePage = () => {
                 </h2>
                 {user.displayName && (
                   <p className="text-md sm:text-lg text-gray-500">
-                    @{user.email.split("@")[0]}
+                    
                   </p>
                 )}
               </div>
