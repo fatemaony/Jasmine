@@ -1,0 +1,102 @@
+[
+  {
+    "id": "1",
+    "name": "Tech Innovators Conference 2025",
+    "thumbnail": "https://images.pexels.com/photos/414628/pexels-photo-414628.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "category": "Technology",
+    "date": "2025-05-15",
+    "location": "Dhaka Convention Center, Dhaka",
+    "entry_fee": 500,
+    "description": "An exclusive gathering of tech leaders and innovators from around the world."
+  },
+  {
+    "id": "2",
+    "name": "Creative Writing Workshop",
+    "thumbnail": "https://images.pexels.com/photos/636246/pexels-photo-636246.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "category": "Workshop",
+    "date": "2025-05-20",
+    "location": "Public Library Auditorium, Dhaka",
+    "entry_fee": 150,
+    "description": "A hands-on workshop for aspiring writers to hone their storytelling skills."
+  },
+  {
+    "id": "3",
+    "name": "National University Football Championship",
+    "thumbnail": "https://images.pexels.com/photos/9050668/pexels-photo-9050668.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "category": "Sports",
+    "date": "2025-06-01",
+    "location": "SUST Main Stadium, Sylhet",
+    "entry_fee": 100,
+    "description": "Watch top university teams compete for national glory in this thrilling football event."
+  },
+  {
+    "id": "4",
+    "name": "Dhaka Art and Photography Exhibition",
+    "thumbnail": "https://images.pexels.com/photos/3184395/pexels-photo-3184395.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "category": "Art",
+    "date": "2025-06-10",
+    "location": "Shilpakala Academy, Dhaka",
+    "entry_fee": 200,
+    "description": "Explore stunning artworks and photography from talented local artists."
+  },
+  {
+    "id": "5",
+    "name": "Freelancing Skills Bootcamp",
+    "thumbnail": "https://images.pexels.com/photos/840996/pexels-photo-840996.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "category": "Workshop",
+    "date": "2025-06-20",
+    "location": "BITM Training Center, Chattogram",
+    "entry_fee": 300,
+    "description": "Build freelancing skills and learn to earn online with guidance from industry experts."
+  },
+  {
+    "id": "6",
+    "name": "Youth Entrepreneurship Conference 2025",
+    "thumbnail": "https://images.pexels.com/photos/4458421/pexels-photo-4458421.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "category": "Conference",
+    "date": "2025-07-05",
+    "location": "International Convention City Bashundhara, Dhaka",
+    "entry_fee": 400,
+    "description": "A platform for young entrepreneurs to connect, learn, and showcase ideas."
+  },
+  {
+    "id": "7",
+    "name": "AI & Robotics Expo 2025",
+    "thumbnail": "https://images.pexels.com/photos/4491492/pexels-photo-4491492.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "category": "Technology",
+    "date": "2025-07-15",
+    "location": "Bangabandhu International Conference Center, Dhaka",
+    "entry_fee": 600,
+    "description": "Experience the future of AI and robotics with live demos, panel talks, and exhibits."
+  },
+  {
+    "id": "8",
+    "name": "Bangladesh Startup Pitch Night",
+    "thumbnail": "https://images.pexels.com/photos/210660/pexels-photo-210660.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "category": "Entrepreneurship",
+    "date": "2025-07-22",
+    "location": "Startup Dhaka HQ, Dhaka",
+    "entry_fee": 250,
+    "description": "Startups pitch their ideas to investors and mentors for funding and support."
+  },
+  {
+    "id": "9",
+    "name": "UX/UI Design Masterclass",
+    "thumbnail": "https://images.pexels.com/photos/4158/apple-iphone-smartphone-desk.jpg?auto=compress&cs=tinysrgb&w=600",
+    "category": "Workshop",
+    "date": "2025-08-01",
+    "location": "CodeTree Innovation Lab, Dhaka",
+    "entry_fee": 200,
+    "description": "Learn the principles of user-centered design and get hands-on with Figma and Adobe XD."
+  },
+  {
+    "id": "10",
+    "name": "EcoFest 2025: Sustainability Fair",
+    "thumbnail": "https://images.pexels.com/photos/4491492/pexels-photo-4491492.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "category": "Environment",
+    "date": "2025-08-10",
+    "location": "Ramna Park, Dhaka",
+    "entry_fee": 100,
+    "description": "A green festival promoting sustainable living with eco-friendly products and workshops."
+  }
+]
