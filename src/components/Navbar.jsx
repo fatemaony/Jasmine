@@ -68,20 +68,46 @@ const Navbar = () => {
 
       {/* Nav Links (Mobile) */}
       {menuOpen && (
-        <div className="md:hidden bg-white px-4 pb-4 space-y-2 shadow">
-          <Link to="/" className="block text-gray-700 hover:text-purple-700">
-            Home
+        <div className="md:hidden bg-white px-4 pb-4 pt-2 space-y-3 shadow w-full">
+        <Link to="/" className="block text-gray-700 hover:text-purple-700">
+          Home
+        </Link>
+        <a href="#events" className="block text-black hover:text-purple-700">
+          Events
+        </a>
+      
+        {!user ? (
+          <Link to="/login" className="block">
+            <button className="btn btn-sm bg-[#4c00b0] text-white w-full">Login</button>
           </Link>
-          <Link
-            to="/events"
-            className="block text-gray-700 hover:text-purple-700"
-          >
-            Events
-          </Link>
-          <Link to="/logout" className="block text-gray-700 hover:text-red-500">
-            Logout
-          </Link>
-        </div>
+        ) : (
+          <div className="flex items-center justify-between gap-4 pt-2">
+            <div className="relative group">
+              <Link to="/profile">
+                {user.photoURL ? (
+                  <img
+                    src={user.photoURL}
+                    alt="user"
+                    className="w-10 h-10 rounded-full border-2 border-gray-300"
+                  />
+                ) : (
+                  <FaUserCircle className="text-4xl text-gray-500" />
+                )}
+              </Link>
+              <div className="absolute bottom-[-30px] left-1/2 transform -translate-x-1/2 bg-gray-800 text-white text-sm px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap z-50">
+                {user.displayName || "User"}
+              </div>
+            </div>
+            <button
+              className="text-white btn btn-sm bg-[#4c00b0] hover:text-red-500"
+              onClick={logout}
+            >
+              Logout
+            </button>
+          </div>
+        )}
+      </div>
+      
       )}
     </nav>
   );

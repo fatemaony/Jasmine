@@ -36,11 +36,11 @@ const ProfilePage = () => {
   };
 
   return (
-    <div className="min-h-screen bg-base-200 flex items-center justify-center p-4">
+    <div className="min-h-screen bg-base-200 mt-10 flex items-center justify-center p-4">
       {user ? (
         <div className="flex flex-col-reverse md:flex-row items-center justify-center gap-8 w-full max-w-6xl">
           {/* Left image section */}
-          <div className="w-full md:w-1/2 flex justify-center">
+          <div className="w-full  md:w-1/2 flex justify-center">
             <img 
               src={user.photoURL}
               alt="Profile Illustration"
