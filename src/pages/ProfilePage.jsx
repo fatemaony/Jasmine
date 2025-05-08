@@ -62,7 +62,7 @@ const ProfilePage = () => {
                         className="rounded-full h-full w-full object-cover"
                       />
                     ) : (
-                      <FaUserAlt className="text-white text-4xl rounded-full h-full w-full object-cover p-4" /> // Display profile icon if no photo URL
+                      <FaUserAlt className="text-black text-4xl rounded-full h-full w-full object-cover p-4" /> // Display profile icon if no photo URL
                     )}
                   </div>
                 </div>
