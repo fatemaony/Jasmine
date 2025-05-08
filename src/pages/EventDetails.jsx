@@ -108,7 +108,7 @@ const EventDetails = () => {
 
                   <div className="flex items-center gap-4">
                     <div className="p-2 rounded-full bg-primary text-white">
-                      <FiMapPin size={18} />
+                      
                     </div>
                     <div>
                       <p className="text-sm text-gray-500">Location</p>
